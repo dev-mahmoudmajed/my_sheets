@@ -2,7 +2,7 @@
 
 | Command |what command Do|
 | ----------- | ----------- |
-|`git status`||
+|`git status`|give me status of files & folders in repo|
 |`git clone [link]`|Take clone from Repo To your Local|
 |`git add [file or folder name]`|move it to staging Area|
 |`git add *`|move all files and folder To staging Area|
@@ -15,6 +15,8 @@
 |`git push [Remote Name] [Repo Name]`|upload == update Remote Repo|
 |`git push [master] [origin]`|upload == update Remote Repo|
 |`git pull [Remote Repo name] = git fetch + git merge`|Take changes from remote and update yours|
+|`git log`|give me what happen [changes] to Repo from init it|
+
 
 |Configuration Command |what command Do|
 | ----------- | ----------- |
