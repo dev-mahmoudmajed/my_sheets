@@ -16,6 +16,14 @@
 |`git push [master] [origin]`|upload == update Remote Repo|
 |`git pull [Remote Repo name] = git fetch + git merge`|Take changes from remote and update yours|
 |`git log`|give me what happen [changes] to Repo from init it|
+|`git restet --hard <commit>`|to back to old version of repo what have <commit hash => we get it from `git log`>|
+|`git restet --hard origin/master`|to back to old version of repo which on github|
+
+### Branching
+
+
+
+---------------------------------------------
 
 
 |Configuration Command |what command Do|
@@ -31,6 +39,8 @@
 |`git config --global --unset user.name`|remove user name from configuration|
 |`git config --global --edit`|Open my editor to change configuration setting you can change color and other thing|
 
+---------------
+
 ## Make Public key
 
 |Make Public key Command |what command Do|
@@ -38,6 +48,8 @@
 |`ssh-keygen -t rsa -b 4096 -C "email"`||
 |`cat ~/.ssh/id_rsa.pub`||
 |`ssh -T git@github.com`||
+
+---------------------------------------
 
 ## init Project
 
@@ -54,6 +66,8 @@
 |``||
 |``||
 |``||
+
+-----------------------------------------
 
 ## Project To GitHub
 
