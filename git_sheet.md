@@ -9,7 +9,6 @@
 |`git reset head [file or folder name]`|un stage|
 |`git commit`|move it to local and make it ready to push mean to upload|
 |` git commit -am "Add and commit all"`|make add all and commit for all changes you make it|
-|`git branch`|tell me any branch i work on it|
 |`git remote -v`|tell me the remote Repo Name|
 |`git push`|upload == update Remote Repo|
 |`git push [Remote Name] [Repo Name]`|upload == update Remote Repo|
@@ -21,7 +20,19 @@
 
 ### Branching
 
+| Command |what command Do|
+| ----------- | ----------- |
+|`git branch`|tell me any branch i work on it|
+|`git checkout -b <name of new branch>`| Create new branch  cold Style|
+|`git checkout <name of exist branch>`|switch to branch which i typed his name|
+|`git merge  <name of branch>`|merge branh with main file|
+|``||
 
+### github pages
+create new repo
+
+/username.github.io
+/name.github.io
 
 ---------------------------------------------
 
@@ -39,6 +50,9 @@
 |`git config --global --unset user.name`|remove user name from configuration|
 |`git config --global --edit`|Open my editor to change configuration setting you can change color and other thing|
 
+
+
+
 ---------------
 
 ## Make Public key
@@ -48,6 +62,8 @@
 |`ssh-keygen -t rsa -b 4096 -C "email"`||
 |`cat ~/.ssh/id_rsa.pub`||
 |`ssh -T git@github.com`||
+
+
 
 ---------------------------------------
 
