@@ -8,6 +8,7 @@
 |`git add *`|move all files and folder To staging Area|
 |`git reset head [file or folder name]`|un stage|
 |`git commit`|move it to local and make it ready to push mean to upload|
+|` git commit -am "Add and commit all"`|make add all and commit for all changes you make it|
 |`git branch`|tell me any branch i work on it|
 |`git remote -v`|tell me the remote Repo Name|
 |`git push`|upload == update Remote Repo|
