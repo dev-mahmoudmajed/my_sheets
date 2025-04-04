@@ -1,5 +1,8 @@
 # Datastructures & Algorithms
 
+
+
+
 ## Pointer Reveison
 
 ```cpp
@@ -242,6 +245,48 @@ int main() {
 ```
 
 ## Struct -> Reveison
+
+```cpp
+
+
+```
+
+## 
+
+```cpp
+
+
+```
+
+##
+
+```cpp
+
+
+```
+
+##
+
+```cpp
+
+
+```
+
+##
+
+```cpp
+
+
+```
+
+##
+
+```cpp
+
+
+```
+
+##
 
 ```cpp
 
